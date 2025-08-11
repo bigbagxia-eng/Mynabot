@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 import youtube_dl
 
 TOKEN = os.getenv("TOKEN")
-API_ID = int(os.getenv("APP_ID"))
+API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("APP_HASH")
 
 app = Client("my_bot", bot_token=TOKEN, api_id=API_ID, api_hash=API_HASH)
